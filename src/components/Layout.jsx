@@ -27,7 +27,7 @@ const Layout = ({ user }) => {
       {/* Mobile Menu Button */}
       <button
         type="button"
-        className="md:hidden absolute p-2 m-2 text-gray-700 rounded-lg hover:bg-gray-200 z-10"
+        className="md:hidden absolute p-2 m-2 text-gray-700 rounded-lg bg-gray-300 z-10"
         onClick={() => setIsMobileMenuOpen(!isMobileMenuOpen)}
       >
         {isMobileMenuOpen ? (
