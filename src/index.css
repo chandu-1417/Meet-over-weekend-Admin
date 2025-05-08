@@ -1,0 +1,36 @@
+@import "tailwindcss";
+
+body {
+  font-family: 'Inter', sans-serif;
+}
+
+/* Custom scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #888;
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
+
+/* Active NavLink styling */
+.active-nav-link {
+  @apply bg-gray-900 text-white;
+}
+
+/* .text-left{
+  text-align: center !important;
+} */
+.textleft{
+  text-align: center !important;
+}
